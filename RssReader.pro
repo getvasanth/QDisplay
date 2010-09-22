@@ -1,8 +1,20 @@
 # -------------------------------------------------
-# Project created by QtCreator 2009-07-24T21:45:33
+# Project created by QtCreator 2010-07-29T22:14:30
 # -------------------------------------------------
-QT += webkit xml network
-TARGET = RssReader
+QT += network xml
+TARGET = stylesheet
 TEMPLATE = app
-SOURCES += mainwindow.cpp
-HEADERS += mainwindow.h
+SOURCES += main.cpp \
+    widget.cpp \
+    ticker.cpp \
+    scrollwidget.cpp \
+    tablewidget.cpp \
+    rss.cpp
+HEADERS += widget.h \
+    ticker.h \
+    scrollwidget.h \
+    tablewidget.h \
+    rss.h
+FORMS += widget.ui
+RESOURCES += images.qrc
+
