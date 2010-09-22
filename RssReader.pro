@@ -2,7 +2,7 @@
 # Project created by QtCreator 2010-07-29T22:14:30
 # -------------------------------------------------
 QT += network xml
-TARGET = stylesheet
+TARGET = QDisplay
 TEMPLATE = app
 SOURCES += main.cpp \
     widget.cpp \
