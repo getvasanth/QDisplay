@@ -1,18 +1,6 @@
-Global setup:
+This QDisplay is a application used to access the data from a remote server and display the content in table. 
 
- Download and install Git
-  git config --global user.name "Your Name"
-  git config --global user.email getvasanth@gmail.com
-        
+The Screen refreshes for every particular time period which can be set through the Wizard App[yet to commit]. 
 
-Next steps:
+This is a work in progress not fully complete and functional.
 
-  mkdir QDisplay
-  cd QDisplay
-  git init
-  touch README
-  git add README
-  git commit -m 'first commit'
-  git remote add origin git@github.com:getvasanth/QDisplay.git
-  git push origin master
-      
